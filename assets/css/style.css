@@ -1,0 +1,13 @@
+/*Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bokor&display=swap');
+
+:root {
+--primary-font: "Bokor", script;
+--secondary-font: "Angkor", sans-serif;
+--primary-color: #DF0025ff; /*Rojo*/
+--secondary-color: #AD0420ff; /*Madder*/
+--tertiary-color: #032EA1ff; /*International klein blue*/
+--highlight-color: #837F7Fff; /*Gray*/
+--highlight-color-light: #FFFFFFff; /*White*/
+}
