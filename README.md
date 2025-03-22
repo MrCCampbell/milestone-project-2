@@ -1,11 +1,63 @@
 # **Milestone Project 2** 
 
-## Introduction
+## Building the site
+
+### Introduction
 
 For my second project I have decide to travel information site for Cambodia as it's a country I enjoyed going to and will be going again. When researching information on Cambodian vacations it was very limited information or outdated or irrelvant infomation(ie. most information out there pertained to what they call "sex tourism"). Khmer people have a rich history and beautiful country, that anyone can enjoy and with this website, I am hoping to do the country justice.
 
 
+### First steps
 
+- First went to GitHub to start a new project board for my milestone project 2. I have added 8 issues to the to-do section of the board. They have acceptance criteria and tasks with each one prioritised with importance.
+
+#### Link to GitHub project board
+
+[Github project board](https://github.com/users/MrCCampbell/projects/6/views/1?layout=board&visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D)
+
+![alt text](assets/readmeimages/Screenshot%202025-03-22%20000606.png "Github project board")
+
+- Next stop was Balsamiq, where I made wireframes of the website for different devices.
+
+#### Wireframe for browser window
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234146.png "Browser window 1")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234206.png "Browser window 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234228.png "Browser window 3")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234254.png "Browser window 4")
+
+#### Wireframe for a tablet
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20233935.png "Tablet window 1")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234002.png "Tablet window 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234021.png "Tablet window 3")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20234054.png "Tablet window 4")
+
+#### Wireframe for a mobile phone
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20233636.png "Mobile phone window 1")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20233714.png "Mobile phone window 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20233743.png "Mobile phone window 3")
+
+![alt text](assets/readmeimages/Screenshot%202025-03-20%20233819.png "Mobile phone window 4")
+
+- Came up with a few names for the site. 
+  1. Cambodian Travel Guide.
+  2. Khmer Travel Chronicles.
+  3. Khmer Explorer.
+  4. Cambodia Traveller.
+  5. Travel Guide: Cambodia.
+  6. Road to Cambodia.
+  7. Cambodian Holiday Tips.
+Ultimately decided on using Khmer Explorer for the website, as the I felt it showed respect for the Khmer people and culture.
 
 
 
@@ -34,6 +86,9 @@ For my second project I have decide to travel information site for Cambodia as i
 - Added two fonts from Google Fonts.
 - Added Bootstrap, Font Awesome and linked style.css to index.html
 - Git committed "Added bootstrap, font awesome, google fonts and a palette from coolors."
+- Added balsamiq wireframes to readme file and updated readme file.
+- Git committed "Added wireframes and updated to readme file."
+
 
 
 ### Credits
