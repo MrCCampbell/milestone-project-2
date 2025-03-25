@@ -11,3 +11,25 @@
 --highlight-color: #837F7Fff; /*Gray*/
 --highlight-color-light: #FFFFFFff; /*White*/
 }
+
+/* Global styles */
+ 
+body {
+    font-family: var(--primary-font);
+    padding-top: 4px; /* pushes the top of the header down under fixed navbar */
+}
+
+
+/*Header*/
+ 
+#hero {
+    background-color: white;
+    background-image: url(/assets/images/angkor-wat-main.jpg);
+    background-size: cover;
+    background-position: 50% 20%; 
+    min-height: 500px;
+    padding: 3% 5%;
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 60%;
+}

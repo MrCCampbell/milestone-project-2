@@ -88,6 +88,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added bootstrap, font awesome, google fonts and a palette from coolors."
 - Added balsamiq wireframes to readme file and updated readme file.
 - Git committed "Added wireframes and updated to readme file."
+- Add hero image to header and heading.
+- Git committed "Added heading with hero image."
 
 
 
@@ -107,3 +109,4 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 
 - Cambodia circular favicon is from website https://icons8.com/icon/3H1qKf6gYhQB/cambodia-circular <sup>[1]</sup>
 - Flag_of_Cambodia.svg.png from website https://wikipedia.org was used to pick the palette on https://coolors.co/ <sup>[2]</sup>
+- angkor-wat-main.jpg is from website https://uk.expeditions.com/expedition-stories/stories/angkor-wat-cambodia-must-see-sites <sup>[3]</sup>
