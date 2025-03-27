@@ -90,6 +90,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added wireframes and updated to readme file."
 - Add hero image to header and heading.
 - Git committed "Added heading with hero image."
+- Added carousel with images.
+- Git committed "Added autoplaying carousel."
+
 
 
 
@@ -110,3 +113,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Cambodia circular favicon is from website https://icons8.com/icon/3H1qKf6gYhQB/cambodia-circular <sup>[1]</sup>
 - Flag_of_Cambodia.svg.png from website https://wikipedia.org was used to pick the palette on https://coolors.co/ <sup>[2]</sup>
 - angkor-wat-main.jpg is from website https://uk.expeditions.com/expedition-stories/stories/angkor-wat-cambodia-must-see-sites <sup>[3]</sup>
+- caption.jpg is from website https://www.viator.com/en-GB/tours/Siem-Reap/Angkor-Wat-Temples-at-Sunrise-and-Stilt-Houses-Village-Temples-and-Locals-life/d5480-17674P20 <sup>[4]</sup>
+-Phosphorescent-Plankton-Lights-in-koh-rong-island-cambodia-tours is from website https://www.gocambodia.tours/visit-sihanoukville-see-koh-rongs-glowing-plankton/ <sup>[5]</sup>
+- DJI_0227-scaled-qwzn1jc8clgjpystbnm9xegkgxqjog231u0sor5yjk is from website https://celeste-skybar.com/ <sup>[6]</sup>
+- zoo-e1561963809471.jpg is from website https://helloangkor.com/attractions/phnom-penh-safari-zoo/ <sup>[7]</sup>
+- Tiger-Reintroduction-Program-Cambodia-e1622258987805-1200x675 is from website https://www.wildlifealliance.org/wildlife-phnom-tamao/ <sup>[8]</sup>
