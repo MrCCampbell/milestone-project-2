@@ -94,7 +94,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added autoplaying carousel."
 - Added more images to carousel.
 - Git committed "Added more images to carousel."
-
+- Added heading and paragraph to introduction.
+- Git committed "Added to introduction."
 
 
 
