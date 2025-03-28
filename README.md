@@ -92,6 +92,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added heading with hero image."
 - Added carousel with images.
 - Git committed "Added autoplaying carousel."
+- Added more images to carousel.
+- Git committed "Added more images to carousel."
+
 
 
 
@@ -118,3 +121,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - DJI_0227-scaled-qwzn1jc8clgjpystbnm9xegkgxqjog231u0sor5yjk is from website https://celeste-skybar.com/ <sup>[6]</sup>
 - zoo-e1561963809471.jpg is from website https://helloangkor.com/attractions/phnom-penh-safari-zoo/ <sup>[7]</sup>
 - Tiger-Reintroduction-Program-Cambodia-e1622258987805-1200x675 is from website https://www.wildlifealliance.org/wildlife-phnom-tamao/ <sup>[8]</sup>
+- 5439.jpg is from website https://www.khmertimeskh.com/743468/is-kampot-the-kingdoms-latest-hotspot/ <sup>[9]</sup>
+- udong-att-b.jpg is from website https://vhappytravel.com/attractions.html?name=Oudong-Temple <sup>[10]</sup>
+- Koh-Pich-Koh-Nora-bridge-temporarily-opens-for-Pchum-Ben-festival is from website 
+https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temporarily-opens-for-pchum-ben-festival/ <sup>[11]</sup>
+- 850kirirom3.jpg is from website https://www.greeneratravel.com/Full-day-Private-Kirirom-National-Park-and-Chambok-Village-Tour-from-PhnomPenh <sup>[12]</sup>
+- x6lotyfo53o31.webp is from website https://www.reddit.com/r/cambodia/comments/d7mk4c/mekong_river_cruise_in_phnom_penh_at_night_on/?rdt=43673 <sup>[13]</sup>
