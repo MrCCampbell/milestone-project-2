@@ -33,3 +33,14 @@ body {
     font-family: var(--secondary-font);
     font-size: 60%;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.place-picker-container {
+  padding: 20px;
+}
