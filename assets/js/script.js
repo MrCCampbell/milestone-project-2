@@ -1,3 +1,5 @@
+
+
 async function init() {
     await customElements.whenDefined('gmp-map');
   
@@ -39,3 +41,4 @@ async function init() {
   }
   
   document.addEventListener('DOMContentLoaded', init);
+

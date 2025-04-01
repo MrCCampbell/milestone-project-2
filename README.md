@@ -98,6 +98,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added to introduction."
 - Added Google maps API to index.html, style.css & script.js.
 - Git committed "Added Google maps API." 
+- Added header and footer.
+- Git committed "Added header & Footer."
 
 
 
