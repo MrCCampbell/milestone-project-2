@@ -55,7 +55,16 @@ body {
   padding: 20px;
 }
 
+h2 {
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+}
 
+h1,
+h2,
+h3 {
+    text-transform: capitalize;
+}
 /* Footer / contact */
 
 #contact {
