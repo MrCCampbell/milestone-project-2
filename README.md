@@ -104,6 +104,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Restricted API key for google maps API."
 - Added App section to site.
 - Git committed "Added App section to site."
+- Adjustment to Google map API.
+- Git committed "Adjustment to Google map API."
+
 
 
 

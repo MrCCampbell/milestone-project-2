@@ -1,44 +1,48 @@
 
 
-async function init() {
-    await customElements.whenDefined('gmp-map');
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+  "marker"
+  );
+  const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 3,
+  center: {
+  lat: 12.6940934,
+  lng: 104.9103991,
+  },
+  mapId: "cambodia-map",
+  });
   
-    const map = document.querySelector('gmp-map');
-    const marker = document.querySelector('gmp-advanced-marker');
-    const placePicker = document.querySelector('gmpx-place-picker');
-    const infowindow = new google.maps.InfoWindow();
+  var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
-    map.innerMap.setOptions({
-      mapTypeControl: false
-    });
+  var locations = [
+  { lat: 40.785091, lng: -73.968285 },
+  { lat: 41.084045, lng: -73.874245 },
+  { lat: 40.754932, lng: -73.984016 },
+  ];
   
-    placePicker.addEventListener('gmpx-placechange', () => {
-      const place = placePicker.value;
+  const markers = locations.map((position, i) => {
+  const label = labels[i % labels.length];
+  const pinGlyph = new google.maps.marker.PinElement({
+  glyph: label,
+  glyphColor: "white",
+  });
+  const marker = new google.maps.marker.AdvancedMarkerElement({
+  position,
+  content: pinGlyph.element,
+  });
   
-      if (!place.location) {
-        window.alert(
-          "No details available for input: '" + place.name + "'"
-        );
-        infowindow.close();
-        marker.position = null;
-        return;
-      }
+  // markers can only be keyboard focusable when they have click listeners
+  // open info window when marker is clicked
+  marker.addListener("click", () => {
+  infoWindow.setContent(position.lat + ", " + position.lng);
+  infoWindow.open(map, marker);
+  });
+  return marker;
+  });
   
-      if (place.viewport) {
-        map.innerMap.fitBounds(place.viewport);
-      } else {
-        map.center = place.location;
-        map.zoom = 17;
-      }
-  
-      marker.position = place.location;
-      infowindow.setContent(
-        `<strong>${place.displayName}</strong><br>
-         <span>${place.formattedAddress}</span>
-      `);
-      infowindow.open(map.innerMap, marker);
-    });
+  new markerClusterer.MarkerClusterer({ markers, map });
   }
   
-  document.addEventListener('DOMContentLoaded', init);
-
+  initMap();
