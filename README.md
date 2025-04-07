@@ -106,7 +106,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added App section to site."
 - Adjustment to Google map API.
 - Git committed "Adjustment to Google map API."
-
+- Added width and height for API.
+- Git committed "Added width and height for API."
 
 
 

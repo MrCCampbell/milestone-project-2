@@ -5,8 +5,8 @@ async function initMap() {
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
   "marker"
   );
-  const map = new google.maps.Map(document.getElementById("map"), {
-  zoom: 3,
+  const map = new google.maps.Map(document.getElementById("cambodia-map"), {
+  zoom: 7,
   center: {
   lat: 12.6940934,
   lng: 104.9103991,
