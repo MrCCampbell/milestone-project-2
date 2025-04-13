@@ -110,7 +110,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added width and height for API."
 - Added cards to app section of the site.
 - Git committed "Added cards to app section of the site."
-
+- Added extra heading and cards to app section. Decided on four cards per group and decided on which company goes in each card.
+- Git committed "Added extra heading and cards to app section."
 
 ### Credits
 
