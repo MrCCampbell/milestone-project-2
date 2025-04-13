@@ -17,9 +17,9 @@ async function initMap() {
   var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
   var locations = [
-  { lat: 40.785091, lng: -73.968285 },
-  { lat: 41.084045, lng: -73.874245 },
-  { lat: 40.754932, lng: -73.984016 },
+  { lat: 10.943501, lng: 103.273978 },
+  { lat: 12.198961, lng: 106.378396 },
+  { lat: 14.342588, lng: 103.628196 },
   ];
   
   const markers = locations.map((position, i) => {

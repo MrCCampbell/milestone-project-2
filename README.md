@@ -112,6 +112,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added cards to app section of the site."
 - Added extra heading and cards to app section. Decided on four cards per group and decided on which company goes in each card.
 - Git committed "Added extra heading and cards to app section."
+- Added lat and long varations to api.
+- Git committed "Added lat and long varations to api."
 
 ### Credits
 
