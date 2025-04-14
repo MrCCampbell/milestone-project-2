@@ -114,6 +114,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added extra heading and cards to app section."
 - Added lat and long varations to api.
 - Git committed "Added lat and long varations to api."
+- Added photos and information to the cards.
+- Git committed "Added photos and information to the cards."
+
 
 ### Credits
 
@@ -144,3 +147,16 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temporarily-opens-for-pchum-ben-festival/ <sup>[11]</sup>
 - 850kirirom3.jpg is from website https://www.greeneratravel.com/Full-day-Private-Kirirom-National-Park-and-Chambok-Village-Tour-from-PhnomPenh <sup>[12]</sup>
 - x6lotyfo53o31.webp is from website https://www.reddit.com/r/cambodia/comments/d7mk4c/mekong_river_cruise_in_phnom_penh_at_night_on/?rdt=43673 <sup>[13]</sup>
+- eCD1qa1PSRIqYhK5wLbXbRMDOVnpzNDlaN5QUgdP.png is from website https://b2b-cambodia.com/news/metfone-receives-the-most-reliable-and-trusted-mobile-network-in-cambodia-2024-award-from-world-business-outlook-awards-2024/ <sup>[14]</sup>
+- unnamed.webp is from website https://play.google.com/store/apps/details?id=net.omobio.smartsc <sup>[15]</sup>
+- unnamed1.webp is from website https://play.google.com/store/apps/details?id=com.cellcard.dear_app <sup>[16]</sup>
+- PassApp.png is from website https://passapptaxis.com/ <sup>[17]</sup>
+- unnamed2.webp is from website https://play.google.com/store/apps/details?id=com.multibrains.taxi.passenger.letsgotaxicambodianew <sup>[18]</sup>
+- xltinp4qfl3zsgl3ir3p.webp is from website https://www.crunchbase.com/organization/bookmebus <sup>[19]</sup>
+- unnamed3.webp is from website https://play.google.com/store/apps/details?id=com.camboticket.magicbus <sup>[20]</sup>
+- grab.png is from website https://www.finsmes.com/2018/11/booking-holdings-invests-200m-in-grab.html <sup>[21]</sup>
+- foodpanda-logo-RGB-stacked-900x636.png is from website https://www.foodpanda.com/media-kit/ <sup>[22]</sup>
+- download.png is from website https://startupcambodia.gov.kh/ecosystem/discover/category/startup/179 <sup>[23]</sup>
+- u_life_kh_super_app_co_ltd_logo.jpg is from website https://www.linkedin.com/company/u-life-kh-super-app-co-ltd/?originalSubdomain=kh <sup>[24]</sup>
+- 1539715915763.png is from website https://www.linkedin.com/pulse/bookingcom-annoying-yet-genius-experience-ori-feldstein/ <sup>[25]</sup>
+-  23ca03370c7a0b39cd82ff260af574c0.jpg is from website https://ca.pinterest.com/pin/620230179926081656/ <sup>[26]</sup>
