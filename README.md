@@ -116,6 +116,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added lat and long varations to api."
 - Added photos and information to the cards.
 - Git committed "Added photos and information to the cards."
+- Change sub headings with the cards.
+- Git committed "Change sub headings with the cards."
 
 
 ### Credits
