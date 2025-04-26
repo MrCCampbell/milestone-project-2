@@ -122,6 +122,7 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Change sub headings with the cards 1."
 - Added google translate api to site.
 - Git committed "Added google translate api to site."
+
 ### Credits
 
 #### Content
@@ -163,4 +164,6 @@ https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temp
 - download.png is from website https://startupcambodia.gov.kh/ecosystem/discover/category/startup/179 <sup>[23]</sup>
 - u_life_kh_super_app_co_ltd_logo.jpg is from website https://www.linkedin.com/company/u-life-kh-super-app-co-ltd/?originalSubdomain=kh <sup>[24]</sup>
 - 1539715915763.png is from website https://www.linkedin.com/pulse/bookingcom-annoying-yet-genius-experience-ori-feldstein/ <sup>[25]</sup>
--  23ca03370c7a0b39cd82ff260af574c0.jpg is from website https://ca.pinterest.com/pin/620230179926081656/ <sup>[26]</sup>
+- 23ca03370c7a0b39cd82ff260af574c0.jpg is from website https://ca.pinterest.com/pin/620230179926081656/ <sup>[26]</sup>
+- Ling-Logo.jpg is from website https://ling-app.com/ling-logo/ <sup>[27]</sup>
+- images.png is from website https://play.google.com/store/apps/details?id=simply.learn.khmer <sup>[27]</sup>
