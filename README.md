@@ -122,6 +122,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Change sub headings with the cards 1."
 - Added google translate api to site.
 - Git committed "Added google translate api to site."
+- Added images to translating cards.
+- Git committed "Added images to translating cards."
 
 ### Credits
 
