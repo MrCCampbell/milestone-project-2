@@ -48,7 +48,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 
 .place-picker-container {
@@ -62,16 +62,47 @@ h2 {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     text-transform: capitalize;
+    text-align: center;
 }
+
+p {
+    text-align: justify;
+}
+
+/* Google map */
+
+#cambodia-map {
+    height: 400px;
+    width: 800px;
+    border: 20px solid var(--primary-color);
+    margin: 10px auto 10px auto;
+}
+
+/* Google Translator */
+
+#khmer-translator {
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: var(--primary-font);
+    padding: 10px, 20px;
+    margin-right: 10px;
+}
+
 /* Footer / contact */
 
 #contact {
-   background-color: var(--primary-color);  
-   text-transform: none;
-   padding-bottom: 1rem;
-   padding-top: 2rem;
+    background-color: var(--primary-color);  
+    text-transform: none;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 #contact h2, h3 {

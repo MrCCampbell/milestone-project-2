@@ -1,4 +1,5 @@
 
+/* Google map */
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
@@ -47,4 +48,25 @@ async function initMap() {
   
   initMap();
 
-  
+/* Google translator */
+
+  async function translateText(sourceLang, targetLang) {
+    const text = document.getElementById('inputText').value;
+    const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
+    const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
+    
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        q: text,
+        source: sourceLang,
+        target: targetLang,
+        format: 'text'
+      })
+    });
+
+    const data = await response.json();
+    const translatedText = data.data.translations[0].translatedText;
+    document.getElementById('outputText').value = translatedText;
+  }

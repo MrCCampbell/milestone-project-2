@@ -153,21 +153,21 @@
               </div>
         </section>
         <section>
-          <h2 class="text-center">Map of Cambodia</h2>
-          <p class="text-center">Please use the google maps below to explore the country</p><br>
-         <div id="cambodia-map" style="height: 400px; width: 800px;">
+          <h2>Map of Cambodia</h2>
+          <p>Please use the google maps below to explore the country</p><br>
+         <div id="cambodia-map">
           </div>
          </section>
         <section>
           <div>
-            <h2 class="text-center">Recommended Apps for use in Cambodia</h2>
-            <p class="text-center">App's center a big part of life in Cambodia. Be it for phone networks, Transport and food. Now downloading 
+            <h2>Recommended Apps for use in Cambodia</h2>
+            <p>App's center a big part of life in Cambodia. Be it for phone networks, Transport and food. Now downloading 
               these apps before you leave for your trip, Google Play will warn you about these apps but in country you do not 
               get such warnings. It's because the app makers are connected with China's government, perfect example is TikTok.
             </p>
             <div>
-             <h3 class="text-center">Phone Networks</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+             <h3>Phone Networks</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
              <div class="col">
                 <div class="card h-100">
                   <img src="assets/images/unnamed.webp" class="card-img-top" alt="smart-logo">
@@ -197,8 +197,8 @@
               </div>
             </div>
             </div>
-            <div><h3 class="text-center">Transportation</h3>
-             <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div><h3">Transportation</h3>
+             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src="assets/images/PassApp.png" class="card-img-top" alt="passapp-logo">
@@ -237,7 +237,7 @@
               </div>
             </div>
             </div>
-            <div><h3 class="text-center">Food Delivery</h3>
+            <div><h3>Food Delivery</h3>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                <div class="col">
                 <div class="card h-100">
@@ -277,8 +277,8 @@
               </div>
             </div>
             </div>
-            <div><h3 class="text-center">Travel</h3>
-             <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div><h3>Travel</h3>
+             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src="assets/images/Embassy-Logo.webp" class="card-img-top" alt="cambodian-embassy-logo">
@@ -317,6 +317,45 @@
               </div>
             </div>
           </div>
+          </div>
+        </section>
+        <section>
+          <div id="khmer-translator">
+            <h2>Khmer Translator (EN ↔ KH)</h2>
+            <p>Please try this translator to give you taster of the Khmer people's language. French was spoken in Cambodia but
+              only the elder might remember any French at all. English is only spoken in mostly tourist area but Khmer is spoken country 
+            wide and the Khmer appricate the effort to speak their language and follow their customs.</p>
+
+            <textarea id="inputText" placeholder="Enter text here..."></textarea>
+            <br>
+            <button onclick="translateText('en', 'kh')">Translate to Khmer</button>
+            <button onclick="translateText('kh', 'en')">Translate to English</button>
+
+            <h3>Translated:</h3>
+            <textarea id="outputText" readonly></textarea>
+          </div>
+          <div>
+            <h3>Translator Apps</h3>
+            <p>In the world of translator apps, the Khmer language is not widely use. These are the only two that can be 
+              downloaded to your phone which you can learn Khmer and other asian languages.
+            </p>
+            <div class="card-group">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ling</h5>
+                  <p class="card-text">A transtating app used for many lanuages including Khmer</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Simply</h5>
+                  <p class="card-text">A transtating learning app specifically just Khmer language.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
     </main>
