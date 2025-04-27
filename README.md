@@ -126,6 +126,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added images to translating cards."
 - Added links to images of cards.
 - Git committed "Added links to images of cards."
+- Added credits for translate API.
+- Git commmitted "Added credits for translate API."
 
 ### Credits
 
@@ -138,7 +140,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Gudiance taken from article on  [Stack Overflow](https://stackoverflow.com/)
 - Palette colours were made from the Cambodian flag on [Coolors](https://coolors.co/)
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
-- Google maps API taken from [Google Cloud](https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=semiotic-primer-454323-n5&inv=1&invt=AbthWg&organizationId=800517397602)
+- Google maps API taken from [Google Cloud Maps](https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=semiotic-primer-454323-n5&inv=1&invt=AbthWg&organizationId=800517397602)
+- Google translate API taken from [Google Cloud Translate](https://cloud.google.com/translate?hl=en)
 
 #### Media
 
