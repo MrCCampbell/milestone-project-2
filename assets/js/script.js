@@ -50,8 +50,8 @@ async function initMap() {
 
 /* Google translator */
 
-  async function translateText(sourceLang, targetLang) {
-    const text = document.getElementById('inputText').value;
+async function translateText(sourceLang, targetLang) {
+    const text = document.getElementById('inputText, khmer-translator').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
     const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
     
@@ -69,4 +69,4 @@ async function initMap() {
     const data = await response.json();
     const translatedText = data.data.translations[0].translatedText;
     document.getElementById('outputText').value = translatedText;
-  }
+  };
