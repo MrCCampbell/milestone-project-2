@@ -1,4 +1,5 @@
 
+
 /* Google map */
 
 async function initMap() {
@@ -50,23 +51,53 @@ async function initMap() {
 
 /* Google translator */
 
-async function translateText(sourceLang, targetLang) {
+async function translateText(text, sourceLang, targetLang) {
     const text = document.getElementById('inputText, khmer-translator').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
     const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
-    
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        q: text,
-        source: sourceLang,
-        target: targetLang,
-        format: 'text'
-      })
-    });
+    const headers = {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${apiKey}`, // Or "ApiKey ${apiKey}" or other format
+    };
 
-    const data = await response.json();
-    const translatedText = data.data.translations[0].translatedText;
-    document.getElementById('outputText').value = translatedText;
-  };
+    const data = {
+      text: text,
+      source_language: sourceLang,
+      target_language: targetLang,
+    };
+  
+    try {
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: headers,
+        body: JSON.stringify(data),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const responseData = await response.json();
+      const translatedText = data.data.translations[0].translatedText;
+      document.getElementById('outputText').value = translatedText;
+      return responseData.translated_text; // Assuming the API returns "translated_text"
+    } catch (error) {
+      console.error("Error during translation:", error);
+      return null;
+    }
+   }
+
+   // Example usage:
+const apiKey = "AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc"; // Replace with your actual API key
+const textToTranslate = "Hello, how are you?";
+const sourceLanguage = "en";
+const targetLanguage = "kh";
+
+translateText(textToTranslate, sourceLanguage, targetLanguage, apiKey)
+  .then((translatedText) => {
+    if (translatedText) {
+      console.log("Original text:", textToTranslate);
+      console.log("Translated text:", translatedText);
+      // Update the UI with the translated text here
+    }
+  });
