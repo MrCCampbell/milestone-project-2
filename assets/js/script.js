@@ -51,7 +51,7 @@ async function initMap() {
 
 /* Google translator */
 
-async function translateText(text, sourceLang, targetLang) {
+async function translateText(sourceLang, targetLang) {
     const text = document.getElementById('inputText, khmer-translator').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
     const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
