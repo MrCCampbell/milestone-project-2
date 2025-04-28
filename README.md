@@ -130,6 +130,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git commmitted "Added credits for translate API."
 - Added buttons to translate api.
 - Git committed " Added buttons to translate api."
+- Added css for translate api.
+- Git committed "Added css for translate api."
 
 ### Credits
 
