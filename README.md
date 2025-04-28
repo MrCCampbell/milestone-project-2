@@ -132,7 +132,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed " Added buttons to translate api."
 - Added css for translate api.
 - Git committed "Added css for translate api."
-
+- Added another translation card.
+- Git committed "Added another translation card."
 ### Credits
 
 #### Content
@@ -178,3 +179,4 @@ https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temp
 - 23ca03370c7a0b39cd82ff260af574c0.jpg is from website https://ca.pinterest.com/pin/620230179926081656/ <sup>[26]</sup>
 - Ling-Logo.jpg is from website https://ling-app.com/ling-logo/ <sup>[27]</sup>
 - images.png is from website https://play.google.com/store/apps/details?id=simply.learn.khmer <sup>[27]</sup>
+- images212.png is from website https://www.italki.com/en/teachers/khmer <sup>[28]</sup>
