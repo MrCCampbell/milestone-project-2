@@ -54,7 +54,7 @@ async function initMap() {
 async function translateText(textToTranslate, sourceLang, targetLang, apiKey) {
     const text = document.getElementById('inputText').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
-    const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
+    const url = `https://translation.googleapis.com/language/translate/v3?key=${apiKey}`;
     const headers = {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${apiKey}`, // Or "ApiKey ${apiKey}" or other format
