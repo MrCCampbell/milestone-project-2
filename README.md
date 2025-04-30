@@ -138,6 +138,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Adjusted js for translate api."
 - Compressed images for site.
 - Git committed "Compressed images for site."
+- Fixed issues alerted to by google tools.
+- Git committed "Fixed issues alerted to by google tools."
 
 
 
