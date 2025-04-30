@@ -154,6 +154,7 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
 - Google maps API taken from [Google Cloud Maps](https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=semiotic-primer-454323-n5&inv=1&invt=AbthWg&organizationId=800517397602)
 - Google translate API taken from [Google Cloud Translate](https://cloud.google.com/translate?hl=en)
+- Images compressed by https://imageresizer.com/image-compressor
 
 #### Media
 
@@ -170,14 +171,14 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Koh-Pich-Koh-Nora-bridge-temporarily-opens-for-Pchum-Ben-festival is from website 
 https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temporarily-opens-for-pchum-ben-festival/ <sup>[11]</sup>
 - 850kirirom3.jpg is from website https://www.greeneratravel.com/Full-day-Private-Kirirom-National-Park-and-Chambok-Village-Tour-from-PhnomPenh <sup>[12]</sup>
-- x6lotyfo53o31.webp is from website https://www.reddit.com/r/cambodia/comments/d7mk4c/mekong_river_cruise_in_phnom_penh_at_night_on/?rdt=43673 <sup>[13]</sup>
+- x6lotyfo53o31.jpg is from website https://www.reddit.com/r/cambodia/comments/d7mk4c/mekong_river_cruise_in_phnom_penh_at_night_on/?rdt=43673 <sup>[13]</sup>
 - eCD1qa1PSRIqYhK5wLbXbRMDOVnpzNDlaN5QUgdP.png is from website https://b2b-cambodia.com/news/metfone-receives-the-most-reliable-and-trusted-mobile-network-in-cambodia-2024-award-from-world-business-outlook-awards-2024/ <sup>[14]</sup>
-- unnamed.webp is from website https://play.google.com/store/apps/details?id=net.omobio.smartsc <sup>[15]</sup>
-- unnamed1.webp is from website https://play.google.com/store/apps/details?id=com.cellcard.dear_app <sup>[16]</sup>
+- unnamed.jpg is from website https://play.google.com/store/apps/details?id=net.omobio.smartsc <sup>[15]</sup>
+- unnamed1.jpg is from website https://play.google.com/store/apps/details?id=com.cellcard.dear_app <sup>[16]</sup>
 - PassApp.png is from website https://passapptaxis.com/ <sup>[17]</sup>
-- unnamed2.webp is from website https://play.google.com/store/apps/details?id=com.multibrains.taxi.passenger.letsgotaxicambodianew <sup>[18]</sup>
-- xltinp4qfl3zsgl3ir3p.webp is from website https://www.crunchbase.com/organization/bookmebus <sup>[19]</sup>
-- unnamed3.webp is from website https://play.google.com/store/apps/details?id=com.camboticket.magicbus <sup>[20]</sup>
+- unnamed2.jpg is from website https://play.google.com/store/apps/details?id=com.multibrains.taxi.passenger.letsgotaxicambodianew <sup>[18]</sup>
+- xltinp4qfl3zsgl3ir3p.jpg is from website https://www.crunchbase.com/organization/bookmebus <sup>[19]</sup>
+- unnamed3.jpg is from website https://play.google.com/store/apps/details?id=com.camboticket.magicbus <sup>[20]</sup>
 - grab.png is from website https://www.finsmes.com/2018/11/booking-holdings-invests-200m-in-grab.html <sup>[21]</sup>
 - foodpanda-logo-RGB-stacked-900x636.png is from website https://www.foodpanda.com/media-kit/ <sup>[22]</sup>
 - download.png is from website https://startupcambodia.gov.kh/ecosystem/discover/category/startup/179 <sup>[23]</sup>
@@ -187,3 +188,5 @@ https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temp
 - Ling-Logo.jpg is from website https://ling-app.com/ling-logo/ <sup>[27]</sup>
 - images.png is from website https://play.google.com/store/apps/details?id=simply.learn.khmer <sup>[27]</sup>
 - images212.png is from website https://www.italki.com/en/teachers/khmer <sup>[28]</sup>
+- Embassy-Logo.jpg is from website https://www.cambodiaembassyuk.org/visa-cosular-services/apply-e-visa/ <sup>[29]</sup>
+- unnamed4.jpg is from website https://brandfetch.com/kayak.com <sup>[30]</sup>

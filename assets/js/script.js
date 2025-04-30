@@ -51,7 +51,7 @@ async function initMap() {
 
 /* Google translator */
 
-async function translateText(textToTranslate, sourceLang, targetLang, apiKey) {
+async function translateText(textToTranslate, sourceLang, targetLang) {
     const text = document.getElementById('inputText').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
     const url = `https://translation.googleapis.com/language/translate/v3?key=${apiKey}`;
@@ -93,7 +93,7 @@ const textToTranslate = "Hello, how are you?";
 const sourceLanguage = "en";
 const targetLanguage = "kh";
 
-translateText(textToTranslate, sourceLanguage, targetLanguage, apiKey)
+translateText(textToTranslate, sourceLanguage, targetLanguage)
   .then((translatedText) => {
     if (translatedText) {
       console.log("Original text:", textToTranslate);
