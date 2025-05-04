@@ -60,17 +60,6 @@ For my second project I have decide to travel information site for Cambodia as i
 Ultimately decided on using Khmer Explorer for the website, as the I felt it showed respect for the Khmer people and culture.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### Coding the website
 
 - I have used the Code Institute's template for this project.
@@ -141,7 +130,17 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Fixed issues alerted to by google tools.
 - Git committed "Fixed issues alerted to by google tools."
 
+### Testing
 
+#### Bugs/ Issues
+
+##### Known Issues
+
+As seen in my first project the known issues were the images being placed in the carousel and Hero Image. The image would not load even though the link was correct. Sometimes I had to delete the photo from the image folder and then put it back it.
+
+The second issue were the API's as it's the first time using JS, mistakes are made and research was the only was to correct the issues. Use Google Gemini and chatGPT.
+
+#### 
 
 ### Credits
 
@@ -156,7 +155,10 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
 - Google maps API taken from [Google Cloud Maps](https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=semiotic-primer-454323-n5&inv=1&invt=AbthWg&organizationId=800517397602)
 - Google translate API taken from [Google Cloud Translate](https://cloud.google.com/translate?hl=en)
-- Images compressed by https://imageresizer.com/image-compressor
+- Images compressed by [Image Resizer](https://imageresizer.com/image-compressor)
+- AI assitance from [Google Gemini](https://gemini.google.com) and [ChatGPT](https://chat.openai.com/)
+
+
 
 #### Media
 

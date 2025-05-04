@@ -3,6 +3,8 @@
 /* Google map */
 
 async function initMap() {
+  const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
+  const apiUrl = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
   "marker"
@@ -51,7 +53,7 @@ async function initMap() {
 
 /* Google translator */
 
-async function translateText(textToTranslate, sourceLang, targetLang) {
+async function translateText(sourceLang, targetLang) {
     const text = document.getElementById('inputText').value;
     const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
     const url = `https://translation.googleapis.com/language/translate/v3?key=${apiKey}`;
@@ -88,12 +90,12 @@ async function translateText(textToTranslate, sourceLang, targetLang) {
    }
 
    // Example usage:
-const apiKey = "AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc"; // Replace with your actual API key
+const apiKey = "AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc"; 
 const textToTranslate = "Hello, how are you?";
 const sourceLanguage = "en";
-const targetLanguage = "kh";
+const targetLanguage = "km";
 
-translateText(textToTranslate, sourceLanguage, targetLanguage)
+translateText(sourceLanguage, "km")
   .then((translatedText) => {
     if (translatedText) {
       console.log("Original text:", textToTranslate);
