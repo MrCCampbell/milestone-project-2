@@ -129,6 +129,12 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Compressed images for site."
 - Fixed issues alerted to by google tools.
 - Git committed "Fixed issues alerted to by google tools."
+- Used to Gemini and chatGPT to find out that 'kh' was wrong to use and to use 'km' instead.
+- Git committed "Used to Gemini and chatGPT to find out that 'kh' was wrong to use and to use 'km' instead."
+- Removed unneccessary code from js.
+- Git committed "Removed unneccessary code from js."
+
+ 
 
 ### Testing
 
