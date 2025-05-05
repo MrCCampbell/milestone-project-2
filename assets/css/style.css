@@ -34,7 +34,7 @@ body {
  
 #hero {
     background-color: white;
-    background-image: url(/assets/images/angkor-wat-main.jpg);
+    background-image: url(../images/angkor-wat-main.jpg);
     background-size: cover;
     background-position: 50% 20%; 
     min-height: 500px;
@@ -80,33 +80,6 @@ p {
     border: 5px solid var(--primary-color);
     margin: 10px auto 10px auto;
 }
-
-#pac-input {
-    background-color: #fff;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    margin-left: 12px;
-    padding: 0 11px 0 13px;
-    text-overflow: ellipsis;
-    width: 300px;
-    box-sizing: border-box;
-  }
-
-  #pac-input:focus {
-    border-color: var(--tertiary-color);
-  }
-
-  .controls {
-    margin-top: 10px;
-    border: 1px solid transparent;
-    border-radius: 2px 0 0 2px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    height: 32px;
-    outline: none;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
 
 /* Google Translator */
 

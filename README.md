@@ -133,6 +133,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Used to Gemini and chatGPT to find out that 'kh' was wrong to use and to use 'km' instead."
 - Removed unneccessary code from js.
 - Git committed "Removed unneccessary code from js."
+- Added google devtools.
+- Git committed "Added google devtools."
+
 
  
 
@@ -146,7 +149,22 @@ As seen in my first project the known issues were the images being placed in the
 
 The second issue were the API's as it's the first time using JS, mistakes are made and research was the only was to correct the issues. Use Google Gemini and chatGPT.
 
-#### 
+#### Google DevTools
+
+![alt text](assets/readmeimages/Screenshot%202025-04-07%20120254.png "Google DevTools") 
+ 
+Both images were resized:
+
+![alt text](assets/readmeimages/Screenshot%202025-04-30%20114748.png "Caption.jpg resized")
+
+![alt text](assets/readmeimages/Screenshot%202025-04-30%20114837.png "angkor-wat-main.jpg resized")
+
+#### Lighthouse on Devtools
+
+
+
+
+
 
 ### Credits
 
@@ -200,3 +218,5 @@ https://www.khmertimeskh.com/501375962/in-pictures-koh-pich-koh-nora-bridge-temp
 - images212.png is from website https://www.italki.com/en/teachers/khmer <sup>[28]</sup>
 - Embassy-Logo.jpg is from website https://www.cambodiaembassyuk.org/visa-cosular-services/apply-e-visa/ <sup>[29]</sup>
 - unnamed4.jpg is from website https://brandfetch.com/kayak.com <sup>[30]</sup>
+
+[def]: assets/readmeimages/Screenshot%202025-04-07%20120254.png "Google Tools"
