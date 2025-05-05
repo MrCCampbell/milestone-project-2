@@ -18,38 +18,40 @@ async function initMap() {
   
   var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
-  var locations = [
-  
-  ];
-  async function translateText(sourceLang, targetLang) {
-  
+  var locations = [];
+
   const markers = locations.map((position, i) => {
-  const label = labels[i % labels.length];
-  const pinGlyph = new google.maps.marker.PinElement({
-  glyph: label,
-  glyphColor: "white",
+    const label = labels[i % labels.length];
+    const pinGlyph = new google.maps.marker.PinElement({
+      glyph: label,
+      glyphColor: "white",
+    });
+    const marker = new google.maps.marker.AdvancedMarkerElement({
+      position,
+      content: pinGlyph.element,
+    });
+
+    // markers can only be keyboard focusable when they have click listeners
+    // open info window when marker is clicked
+    marker.addListener("click", () => {
+      infoWindow.setContent(position.lat + ", " + position.lng);
+      infoWindow.open(map, marker);
+    });
+    return marker;
   });
-  const marker = new google.maps.marker.AdvancedMarkerElement({
-  position,
-  content: pinGlyph.element,
-  });
-  
-  // markers can only be keyboard focusable when they have click listeners
-  // open info window when marker is clicked
-  marker.addListener("click", () => {
-  infoWindow.setContent(position.lat + ", " + position.lng);
-  infoWindow.open(map, marker);
-  });
-  return marker;
-  });
-  
-  new markerClusterer.MarkerClusterer({ markers, map });
+
+  if (typeof markerClusterer !== 'undefined') {
+    new markerClusterer.MarkerClusterer({ markers, map });
+  } else {
+    console.error("markerClusterer is not defined. Please ensure the MarkerClusterer library is loaded.");
   }
-  
-  initMap();
+}
+
+initMap();
 
 
 /* Google translator */
+
 
 async function translateText(sourceLang, targetLang) {
   const text = document.getElementById('inputText').value;
@@ -67,7 +69,7 @@ async function translateText(sourceLang, targetLang) {
   };
 
   try {
-    const response = await fetch(apiUrl, {
+    const response = await fetch(url, {
       method: "POST",
       headers: headers,
       body: JSON.stringify(data),
@@ -78,9 +80,9 @@ async function translateText(sourceLang, targetLang) {
     }
 
     const responseData = await response.json();
-    const translatedText = data.data.translations[0].translatedText;
+    const translatedText = responseData.translations[0].translatedText;
     document.getElementById('outputText').value = translatedText;
-    return responseData.translated_text; // Assuming the API returns "translated_text"
+    return translatedText;
   } catch (error) {
     console.error("Error during translation:", error);
     return null;
@@ -102,4 +104,3 @@ translateText(sourceLanguage, "km")
       // Update the UI with the translated text here
     }
   })
-}
