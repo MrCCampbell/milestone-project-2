@@ -1,10 +1,11 @@
 
-const myKey = config.MY_KEY
 
 // Google maps
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
+  const url = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc"
+
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
   "marker"
   );
@@ -56,7 +57,7 @@ initMap();
 
 async function translateText(sourceLang, targetLang) {
   const text = document.getElementById('inputText').value;
-  const apiKey = myKey; 
+  const apiKey = 'AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc'; 
   const url = `https://translate.googleapis.com/$discovery/rest?version=v3beta1?key=${apiKey}`;
   const headers = {
     "Content-Type": "application/json",

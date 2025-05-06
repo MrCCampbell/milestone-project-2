@@ -139,6 +139,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added config.js to .gitignore."
 - Hidden api key.
 - Git committed "Hidden api key."
+- Restricted api key.
+- Git committed "Restricted api key."
+
 
 
  
