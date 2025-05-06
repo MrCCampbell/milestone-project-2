@@ -4,7 +4,10 @@
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
-  const map = new google.maps.Map(document.getElementById("cambodia-map"), {
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+  "marker"
+  );
+  const map = new google.maps.Map(document.getElementById("map"), {
   zoom: 7,
   center: {
   lat: 12.6940934,
@@ -16,9 +19,7 @@ async function initMap() {
   var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
   var locations = [
-  { lat: 10.943501, lng: 103.273978 },
-  { lat: 12.198961, lng: 106.378396 },
-  { lat: 14.342588, lng: 103.628196 },
+  ,
   ];
   
   const markers = locations.map((position, i) => {
@@ -45,7 +46,6 @@ async function initMap() {
   }
   
   initMap();
-
 
 /* Google translator */
 
