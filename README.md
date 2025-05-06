@@ -149,6 +149,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Changed script.js for google map api."
 - Added marker for phnom pehn on maps.
 - Git committed "Added marker for phnom pehn on maps."
+- Added markers to the map.
+- Git committed "Added markers to the map."
+
 
 
 
@@ -191,7 +194,7 @@ Both images were resized:
 - Template for website used from [Code-Institute-Org](https://github.com/Code-Institute-Org/ci-full-template).
 - HTML and CSS code help from [W3Schools](https://www.w3schools.com/), and [WHATWG](https://whatwg.org/).
 - Bootstrap code help from [Bootstrap](https://getbootstrap.com/).
-- Gudiance taken from article on  [Stack Overflow](https://stackoverflow.com/)
+- Gudiance taken from articles on [Stack Overflow](https://stackoverflow.com/), [CodeMentor](https://www.codementor.io/projects) and [W3Schools](https://www.w3schools.com/).
 - Palette colours were made from the Cambodian flag on [Coolors](https://coolors.co/)
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
 - Google maps API taken from [Google Cloud Maps](https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=semiotic-primer-454323-n5&inv=1&invt=AbthWg&organizationId=800517397602)
