@@ -1,3 +1,4 @@
+const myKey = config.MY_KEY
 
 // Google maps
 

@@ -135,6 +135,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Removed unneccessary code from js."
 - Added google devtools.
 - Git committed "Added google devtools."
+- Added config.js to .gitignore.
+- Git committed "Added config.js to .gitignore."
 
 
  
