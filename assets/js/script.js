@@ -1,7 +1,6 @@
 
 
-// Google map
-/
+// Google map//
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
