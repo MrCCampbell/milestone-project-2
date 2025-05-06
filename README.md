@@ -143,6 +143,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Restricted api key."
 - Reverted code that worked.
 - Git committed "Reverted code that worked."
+- Changed google map api script.
+- Git committed "Changed google map api script."
 
 
 
