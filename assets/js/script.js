@@ -2,7 +2,6 @@
 // Google maps
 
 async function initMap() {
-  const apiUrl = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
   "marker"
