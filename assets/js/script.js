@@ -9,9 +9,19 @@ function initMap() {
     mapId: "e76c019228702018",
 
 });
+
+
+new google.maps.Marker({
+  position: { lat: 11.579014253646589, lng: 104.83982054604496}, 
+  map,
+  title: "Phnom Penh",
+  icon: {
+    url: "assets/images/360_F_289873298_R6OHqOHcglPMoQFgqilcFZMF11Z7gxlx.jpg",
+    scaledSize: new google.maps.Size(20, 20),
+  },
+})
+
 }
-
-
 
 /* Google translator */
 
