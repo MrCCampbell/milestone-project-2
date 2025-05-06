@@ -1,4 +1,4 @@
-import './js/config.js'
+
 const myKey = config.MY_KEY
 
 // Google maps
