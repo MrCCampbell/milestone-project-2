@@ -141,6 +141,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Hidden api key."
 - Restricted api key.
 - Git committed "Restricted api key."
+- Reverted code that worked.
+- Git committed "Reverted code that worked."
 
 
 
