@@ -193,7 +193,10 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Removed translate api from html.
 - Git committed "Removed translate api from html."
 - Added deployment section to readme.
-- Git committed "Added deployment section to readme."
+- Git committed "Added deployment section to readme." 
+- Added headings and future plans to readme.
+- Git committed "Added headings and future plans to readme."
+
 
 
 
