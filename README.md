@@ -171,6 +171,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added google translate api to html."
 - Updated google translate api html.
 - Git committed "Updated google translate api html."
+- Removed translate api from html.
+- Git committed "Removed translate api from html."
+
 
 
 
