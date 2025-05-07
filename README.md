@@ -59,6 +59,25 @@ For my second project I have decide to travel information site for Cambodia as i
   7. Cambodian Holiday Tips.
 Ultimately decided on using Khmer Explorer for the website, as the I felt it showed respect for the Khmer people and culture.
 
+## Deploying the project
+
+#### Deployment steps
+1. Logged in to [Github](https://github.com/).
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20171350.png "Github logged in")
+2. Entered [Repositories](https://github.com/MrCCampbell?tab=repositories).
+3. Navigated to [Milestone-project-1](https://github.com/MrCCampbell/milestone-project-2) repository.
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20171549.png "Github repositories")
+4. Next went to [Settings](https://github.com/MrCCampbell/milestone-project-2/settings).
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20171849.png "Github settings menu")
+5. In settings on the left hand side of the menu under [Pages](https://github.com/MrCCampbell/milestone-project-2/settings/pages).
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20171645.png "Github pages settings")
+6. Changed source to "Deploy from Branch" and then in the Branch section, selected "Main" branch and folder "/root". Then saved and the site was published (See link below.). 
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20172017.png "Deployment settings")
+
+#### Link to the 2nd milestone's project website
+Here is the link for the project's live website [Khmer Explorer](https://mrccampbell.github.io/milestone-project-2/index.html)
+
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20171150.png "Khmer Explorer website")
 
 ### Coding the website
 
