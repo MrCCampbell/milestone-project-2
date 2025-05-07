@@ -3,7 +3,7 @@
 
 let map;
 
-function initMap() {
+async function initMap() {
   map = new google.maps.Map(document.getElementById("cambodia-map"), {
     center: { lat: 12.6940934, lng: 104.9103991},
     zoom: 7,

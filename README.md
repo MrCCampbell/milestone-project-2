@@ -159,6 +159,9 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Re-edited advanced marker element."
 - Removed advanced marker element.
 - Git committed "Removed advanced marker element."
+- Added async to map.
+- Git committed "Added async to map."
+
 
 
 
