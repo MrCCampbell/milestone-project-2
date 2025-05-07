@@ -78,7 +78,7 @@ const markers = [
   for (let i = 0; i < markers.length; i++) {
 		const currMarker = markers[i];
 
-		const marker = new google.maps.Marker({
+		const marker = new google.maps.Marker.Advanced.Marker.Element({
 			position: { lat: currMarker[1], lng: currMarker[2] },
 			map,
 			title: currMarker[0],
