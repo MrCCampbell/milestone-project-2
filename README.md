@@ -163,6 +163,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added async to map."
 - Edited async.
 - Git committed "Edited async."
+- Added marker element after more research.
+- Git committed "Added marker element after more research."
 
 
 
