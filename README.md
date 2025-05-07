@@ -192,6 +192,8 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Updated google translate api html."
 - Removed translate api from html.
 - Git committed "Removed translate api from html."
+- Added deployment section to readme.
+- Git committed "Added deployment section to readme."
 
 
 
@@ -235,10 +237,49 @@ Then re-did the google map api with more research. Using Youtube, Codementor, St
 
 #### Lighthouse on Devtools
 
+#### HTML validator
 
+#### CSS validator(Jigsaw)
 
+#### JS validator
 
+### Testing the website
 
+## Touring the website
+
+#### Navbar
+
+#### Hero image
+
+#### Carousel
+
+### Map of Cambodia
+
+### Recommended apps for use in Cambodia
+
+#### Phone networks
+
+#### Transportation
+
+#### Food delivery
+
+#### Travel
+
+### Khmer Translator
+
+#### Footer
+
+## Future plans
+
+There are many ways to improve the website to keep current visitors and increase future visitors to interact with the website.
+
+1. Add a newsletter to inform members of news for to Cambodian tourists.
+2. Add a member's gallery, for members photo's after vetting to be posted on it's own page with other members
+holiday photo's.
+3. Add quiz or quizzes on the lanuage, the country or the culture of Cambodia.
+4. Add a glossary of animals, flauna and flora of Cambodia.
+5. Add a food guide of Cambodian cuisine and the ability for members to comments on dishes.
+6. Add a restaurant guide page with menu, locations (If multple locations/ chains stores), and reviews for review sites.
 
 ### Credits
 
