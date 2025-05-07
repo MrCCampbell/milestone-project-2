@@ -169,6 +169,8 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Added correct advanced element marker but warning on devtoolds still stayed."
 - Added google translate api to html.
 - Git committed "Added google translate api to html."
+- Updated google translate api html.
+- Git committed "Updated google translate api html."
 
 
 
