@@ -165,6 +165,11 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Git committed "Edited async."
 - Added marker element after more research.
 - Git committed "Added marker element after more research."
+- Added correct advanced element marker but warning on devtoolds still stayed.
+- Git committed "Added correct advanced element marker but warning on devtoolds still stayed."
+- Added google translate api to html.
+- Git committed "Added google translate api to html."
+
 
 
 
@@ -196,6 +201,13 @@ Both images were resized:
 ![alt text](assets/readmeimages/Screenshot%202025-04-30%20114748.png "Caption.jpg resized")
 
 ![alt text](assets/readmeimages/Screenshot%202025-04-30%20114837.png "angkor-wat-main.jpg resized")
+
+Then re-did the google map api with more research. Using Youtube, Codementor, Stack Overflow and W3Schools. Tried AI search engines like chatGPT and Gemini but made it overcomplicated and not how I wanted the API to behave.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-07%20134720.png "Warning on devtools stays even after changed to the new marker element")
+
+
+
 
 #### Lighthouse on Devtools
 
