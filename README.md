@@ -156,7 +156,10 @@ Ultimately decided on using Khmer Explorer for the website, as the I felt it sho
 - Edited advanced marker element due stopping map working.
 - Git committed "Edited advanced marker element due stopping map working."
 - Re-edited advanced marker element.
-- Git committed "re-edited advanced marker element."
+- Git committed "Re-edited advanced marker element."
+- Removed advanced marker element.
+- Git committed "Removed advanced marker element."
+
 
 
 
