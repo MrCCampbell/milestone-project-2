@@ -204,6 +204,12 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Tried new key for translate api."
 - Added JSON file for translate api.
 - Git committed "Added JSON file for translate api."
+- Used JSON file.
+- Git committed "Used JSON file."
+- Checked key for translate api.
+- Git committed "Checked key for translate api."
+
+
 
 
 
@@ -252,7 +258,7 @@ Then re-did the google map api with more research. Using Youtube, Codementor, St
 
 #### CSS validator(Jigsaw)
 
-#### JS validator
+#### JS validator(JSHint)
 
 ### Testing the website
 
