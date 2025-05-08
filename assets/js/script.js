@@ -131,10 +131,11 @@ async function translateText(sourceLang, targetLang) {
     const translatedText = responseData.translations[0].translatedText;
     document.getElementById('outputText').value = translatedText;
     return translatedText;
-   } catch (error) {
+  } catch (error) {
     console.error("Error during translation:", error);
     return null;
   }
+ }
 
  // Example usage:
 
@@ -151,5 +152,3 @@ translateText(sourceLanguage, "km")
       // Update the UI with the translated text here
     }
   })
-
-}
