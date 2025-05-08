@@ -144,7 +144,7 @@ const textToTranslate = "Hello, how are you?";
 const sourceLanguage = "en";
 const targetLanguage = "km";
 
-translateText(sourceLanguage, "km")
+translateText(sourceLanguage, targetLanguage)
   .then((translatedText) => {
     if (translatedText) {
       console.log("Original text:", textToTranslate);
