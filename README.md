@@ -196,6 +196,9 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Added deployment section to readme." 
 - Added headings and future plans to readme.
 - Git committed "Added headings and future plans to readme."
+- Added tour of website to readme.
+- Git committed "Added tour of website to readme."
+
 
 
 
@@ -350,7 +353,13 @@ Each of the images, when clicked takes you to the corresponding website.
 
 #### Translation apps
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125904.png "Translation apps")
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125920.png "Ling website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125935.png "Simply Learn website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125955.png "Italki website")
 
 #### Footer
 
