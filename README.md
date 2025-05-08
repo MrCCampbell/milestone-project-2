@@ -198,7 +198,10 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Added headings and future plans to readme."
 - Added tour of website to readme.
 - Git committed "Added tour of website to readme."
-
+- Added translation app to readme.
+- Git committed "Added translation app to readme."
+- Tried new key for translate api.
+- Git committed "Tried new key for translate api."
 
 
 

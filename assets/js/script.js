@@ -104,7 +104,7 @@ const markers = [
 
 async function translateText(sourceLang, targetLang) {
   const text = document.getElementById('inputText').value;
-  const apiKey = "AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc";
+  const apiKey = "f07ae10cb3cbd4cefdfbe327ab13fa08fbc09626";
   const url = "https://translate.googleapis.com/$discovery/rest?version=v2?key=${apiKey}";
   const headers = {
     "Content-Type": "application/json",
@@ -140,7 +140,7 @@ async function translateText(sourceLang, targetLang) {
 
  // Example usage:
 
-const apiKey = "AIzaSyBFkcCW6bk1PXGNsU9y3fKkJSS_BGViKKc"; 
+const apiKey = "f07ae10cb3cbd4cefdfbe327ab13fa08fbc09626"; 
 const textToTranslate = "Hello, how are you?";
 const sourceLanguage = "en";
 const targetLanguage = "km";
