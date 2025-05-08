@@ -152,4 +152,4 @@ translateText(sourceLanguage, "km")
     }
   })
 
- 
+}
