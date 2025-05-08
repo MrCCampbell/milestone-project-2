@@ -86,10 +86,11 @@ p {
 #khmer-weather {
     font-family: var(--secondary-font);
     padding: 20px;
-    max-width: 650px; 
+    max-width: 400px; 
     margin-top: 10px;
-    margin-bottom: 10px;
     border: 2px solid var(--tertiary-color);
+     border-radius: 8px;
+      max-width: 400px; 
 }
 
 #khmer-weather img {
