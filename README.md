@@ -202,6 +202,8 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Added translation app to readme."
 - Tried new key for translate api.
 - Git committed "Tried new key for translate api."
+- Added JSON file for translate api.
+- Git committed "Added JSON file for translate api."
 
 
 
