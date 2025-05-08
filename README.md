@@ -250,27 +250,137 @@ Then re-did the google map api with more research. Using Youtube, Codementor, St
 
 ## Touring the website
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114558.png "Opening website")
+
+Opening the website, you will see the above image. The view of the website has padding all the way down to make it look uniformed and presentable.
+
 #### Navbar
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20115000.png "Navbar")
+
+The navbar has zero in activity but moves down as you scroll down the page.
 
 #### Hero image
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20115545.png "Hero image")
+
+The hero image has a beautiful photo of Angkor Wat and the itle of the website.
+
+#### Introduction
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20121606.png "Introduction")
+
+A brief introduction of the website and why it was set up.
+
 #### Carousel
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20120614.png "Carousel")
+
+The carousel is automatic and has manual controls of images popular in Cambodia.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20120742.png "Carousel 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20120536.png "Carousel 3")
+
 
 ### Map of Cambodia
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20121846.png "Map of Cambodia")
+
+An interactive map of Cambodia, which can be zoomed in, changed to satellite and go to street view. Added images to pin points to general locations of the images from the carousel. 
+
 ### Recommended apps for use in Cambodia
+
+Each of the images, when clicked takes you to the corresponding website.
 
 #### Phone networks
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20122310.png "Phone networks")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20122610.png "Smart website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20122805.png "Cellcard website")"
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20122836.png "Metfone website")
+
+
 #### Transportation
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123119.png "Transportation")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123141.png "Transportation 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123433.png "Passapp website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123506.png "WeGo website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123523.png "Bookmebus website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20123538.png "Camboticket website")
 
 #### Food delivery
 
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124027.png "Food delivery")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124048.png "Food delivery 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124303.png "Grab website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124324.png "Foodpanda website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124341.png "Nham24 website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124401.png "Wownow website")
+
 #### Travel
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124834.png "Travel")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20124855.png "Travel 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125056.png "Cambodia E-visa website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125115.png "Booking website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125132.png "KAYAK website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20125152.png "Expedia website")
 
 ### Khmer Translator
 
+#### Translation apps
+
+
+
 #### Footer
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20113723.png "Footer section")
+
+The footer section is where the contact details, and social media links. Each social media links opens a new page to the corresponding social media website.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20113907.png "Contact details")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114034.png "Facebook link")
+
+![alt text](assets/readmeimages/Screenshot%202025-02-12%20223957.png "Facebook website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114125.png "Instagram link")
+
+![alt text](assets/readmeimages/Screenshot%202025-02-12%20224043.png "Instagram website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114243.png "Linkedin link")
+
+![alt text](assets/readmeimages/Screenshot%202025-02-12%20224148.png "Linkedin website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114337.png "Whatsapp link")
+
+![alt text](assets/readmeimages/Screenshot%202025-02-12%20224232.png "Whatsapp website")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-08%20114446.png "Telegram link")
+
+![alt text](assets/readmeimages/Screenshot%202025-02-12%20224311.png "Telegram website")
+
+
 
 ## Future plans
 
@@ -299,6 +409,7 @@ holiday photo's.
 - Google translate API taken from [Google Cloud Translate](https://cloud.google.com/translate?hl=en)
 - Images compressed by [Image Resizer](https://imageresizer.com/image-compressor)
 - AI assitance from [Google Gemini](https://gemini.google.com) and [ChatGPT](https://chat.openai.com/)
+- Used images and code from my Milestone Project 1 for the contact section.
 
 
 
