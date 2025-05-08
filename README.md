@@ -210,6 +210,9 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Checked key for translate api."
 - Changed translate api to weather api.
 - Git committed "Changed translate api to weather api."
+- Moved the weather api.
+- Git committed "Moved the weather api."
+
 
 
 
