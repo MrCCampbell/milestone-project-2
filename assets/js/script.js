@@ -99,56 +99,28 @@ const markers = [
 	}
 }
 
-/* Google translator */
+/* Weather checker */
 
-async function translateText(sourceLang, targetLang) {
-  const text = document.getElementById('inputText').value;
-  const apiKey = "f07ae10cb3cbd4cefdfbe327ab13fa08fbc09626";
-  const url = "https://www.googleapis.com/robot/v1/metadata/x509/khmer-translate%40semiotic-primer-454323-n5.iam.gserviceaccount.com?key=${apiKey}";
-  const headers = {
-    "Content-Type": "application/json",
-    "Authorization": `Bearer ${apiKey}`, // Or "ApiKey ${apiKey}" or other format
-  };
+ async function getWeather() {
+      const province = document.getElementById('province').value;
+      const weatherDiv = document.getElementById('khmer-weather');
+      weatherDiv.innerHTML = "Loading...";
 
-  const data = {
-    text: text,
-    source_language: sourceLang,
-    target_language: targetLang,
-  };
+      try {
+        const response = await fetch(`https://data.mef.gov.kh/api/v1/realtime-api/weather?province=${encodeURIComponent(province)}`);
+        const json = await response.json();
+        const data = json.data;
 
-  try {
-    const response = await fetch(url, {
-      method: "POST",
-      headers: headers,
-      body: JSON.stringify(data),
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+        weatherDiv.innerHTML = `
+          <h3>Weather in ${data.name}</h3>
+          <p><strong>Condition:</strong> ${data.condition.text} <img src="https:${data.condition.icon}" alt="${data.condition.text}"/></p>
+          <p><strong>Temperature:</strong> ${data.temp_c}°C (feels like ${data.feelslike_c}°C)</p>
+          <p><strong>Humidity:</strong> ${data.humidity}%</p>
+          <p><strong>Wind:</strong> ${data.wind_kph} kph (${data.wind_dir})</p>
+          <p><strong>Updated:</strong> ${new Date(data.last_updated).toLocaleString()}</p>
+        `;
+      } catch (error) {
+        weatherDiv.innerHTML = "Failed to fetch weather data.";
+        console.error(error);
+      }
     }
-
-    const responseData = await response.json();
-    const translatedText = responseData.translations[0].translatedText;
-    document.getElementById('outputText').value = translatedText;
-    return translatedText;
-  } catch (error) {
-    console.error("Error during translation:", error);
-    return null;
-  }
- }
-
- // Example usage:
-
-const apiKey = "f07ae10cb3cbd4cefdfbe327ab13fa08fbc09626"; 
-const textToTranslate = "Hello, how are you?";
-const sourceLanguage = "en";
-const targetLanguage = "km";
-
-translateText(sourceLanguage, targetLanguage)
-  .then((translatedText) => {
-    if (translatedText) {
-      console.log("Original text:", textToTranslate);
-      console.log("Translated text:", translatedText);
-      // Update the UI with the translated text here
-    }
-  })

@@ -316,21 +316,43 @@
           </div>
         </section>
         <section>
-          <div id="khmer-translator">
-            <h2>Khmer Translator</h2>
-            <p>Please try this translator to give you taster of the Khmer people's language. French was spoken in Cambodia but
-              only the elder might remember any French at all. English is only spoken in mostly tourist area but Khmer is spoken country 
-            wide and the Khmer appricate the effort to speak their language and follow their customs. Also if you are interested in learning
-           the language, then there is a few app's to start with.</p>
-
-            <textarea id="inputText" placeholder="Enter text here..."></textarea>
-            <br>
-            <button type="button" class="btn btn-primary" onclick="translateText('en' , 'km')">Translate to Khmer</button>
-            <button type="button" class="btn btn-danger" onclick="translateText('km' , 'en')">Translate to English</button>
-
-            <h3>Translated:</h3>
-            <textarea id="outputText" readonly></textarea>
+          <div id="khmer-weather">
+          <h3>Cambodia Live Weather Forcast</h3>
+          <p>Take a look at the weather in the province you would like to visit. Please be aware of the time 
+            difference. Also protect yourself with the highest level of sunscreen and check all travel restrictions
+            before booking a trip. 
+          </p>
+           <label for="province">Select a Province:</label>
+            <select id="province">
+            <option value="Sihanoukville"></option>Sihanoukville</option>
+            <option value="Kampot">Kampot</option>
+            <option value="Phnom Penh">Phnom Penh</option>
+            <option value="Koh Kong">Koh Kong</option>
+            <option value="Siem Reap">Siem Reap (Angkor Wat)</option>
+            <option value="Banteay Meanchey">Banteay Meanchey</option>
+            <option value="Takeo">Takeo</option>
+            <option value="Battambang">Battambang</option>
+            <option value="Kampong Cham">Kampong Cham</option>
+            <option value="Mondulkiri">Mondulkiri</option>
+            <option value="Preah Vihear">Preah Vihear</option>
+            <option value="Prey Veng">Prey Veng</option>
+            <option value="Kampong Thom">Kampong Thom</option>
+            <option value="Kratie">Kratie</option>
+            <option value="Pursat">Pursat</option>
+            <option value="Pailin">Pailin</option>
+            <option value="Preah Sihanouk">Preah Sihanouk</option>
+            <option value="Kandal">Kandal</option>
+            <option value="Kampong Speu">Kampong Speu</option>
+            <option value="Kampong Chhnang">Kampong Chhnang</option>
+            <option value="Kep">Kep</option>
+            <option value="Oddar Meanchey">Oddar Meanchey</option>
+            <option value="Ratanakiri">Ratanakiri</option>
+            <option value="Tboung Khmum">Tboung Khmum</option>
+            <option value="Stung Treng">Stung Treng</option>
+            </select>
+            <button onclick="getWeather()">Get Weather</button>
           </div>
+
           <div><h3>Translator Apps</h3><br>
             <p>In the world of translator apps, the Khmer language is not widely used. These are the only two that can be 
                     downloaded to your phone which you can learn Khmer and other Asian languages.

@@ -208,6 +208,9 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Used JSON file."
 - Checked key for translate api.
 - Git committed "Checked key for translate api."
+- Changed translate api to weather api.
+- Git committed "Changed translate api to weather api."
+
 
 
 
@@ -249,7 +252,7 @@ Then re-did the google map api with more research. Using Youtube, Codementor, St
 
 ![alt text](assets/readmeimages/Screenshot%202025-05-07%20134720.png "Warning on devtools stays even after changed to the new marker element")
 
-
+The translator was a bigger issue. The key need to be hidden due to the update on the API. As back end development has not been taught in this stage. There was no way I could keep the translator. So tried a weather API instead.
 
 
 #### Lighthouse on Devtools
