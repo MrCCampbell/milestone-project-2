@@ -218,6 +218,8 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Checked HTML code for errors."
 - Checked CSS and JS code for errors.
 - Git committed "Checked CSS and JS code for errors."
+- Added credits to readme.
+- Git committed "Added credits to readme."
  
 ### Testing
 
@@ -451,7 +453,8 @@ holiday photo's.
 3. Add quiz or quizzes on the lanuage, the country or the culture of Cambodia.
 4. Add a glossary of animals, flauna and flora of Cambodia.
 5. Add a food guide of Cambodian cuisine and the ability for members to comments on dishes.
-6. Add a restaurant guide page with menu, locations (If multple locations/ chains stores), and reviews for review sites.
+6. Add a restaurant guide page with menu, locations (If multple locations/ chains stores.), and reviews for review sites.
+7. Translation app with text to speech function.(When I have more exprience with API's and securing keys.).
 
 ### Credits
 
@@ -469,8 +472,7 @@ holiday photo's.
 - Images compressed by [Image Resizer](https://imageresizer.com/image-compressor)
 - AI assitance from [Google Gemini](https://gemini.google.com) and [ChatGPT](https://chat.openai.com/)
 - Used images and code from my Milestone Project 1 for the contact section.
-
-
+- Help, inspiration and support from my mentor [Daniel Hamliton](https://github.com/dlhamilton).
 
 #### Media
 
