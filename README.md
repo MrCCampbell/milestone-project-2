@@ -220,7 +220,10 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Checked CSS and JS code for errors."
 - Added credits to readme.
 - Git committed "Added credits to readme."
- 
+- Added credits 2 to readme.
+- Git committed "Added credits 2 to readme."
+
+
 ### Testing
 
 #### Bugs/ Issues
@@ -473,6 +476,7 @@ holiday photo's.
 - AI assitance from [Google Gemini](https://gemini.google.com) and [ChatGPT](https://chat.openai.com/)
 - Used images and code from my Milestone Project 1 for the contact section.
 - Help, inspiration and support from my mentor [Daniel Hamliton](https://github.com/dlhamilton).
+- Weather Api taken from [Data EF](https://data.mef.gov.kh/).
 
 #### Media
 
