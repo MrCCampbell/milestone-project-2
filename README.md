@@ -216,27 +216,9 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Adjusted the weather api."
 - Checked HTML code for errors.
 - Git committed "Checked HTML code for errors."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Checked CSS and JS code for errors.
+- Git committed "Checked CSS and JS code for errors."
  
-
 ### Testing
 
 #### Bugs/ Issues
@@ -292,13 +274,23 @@ Checked the HTML and found a few errors.
 
 Fixed the errors. No errors or warnings showing.
 
-![alt text](assets/readmeimages/Screenshot%202025-05-09%20013054.png
-
-
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20013054.png "HTML validator 4")
 
 #### CSS validator(Jigsaw)
 
+Checked the CSS and found 1 error.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20013447.png "CSS validator")
+
+Fixed the error.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20013607.png "CSS validator 2")
+
 #### JS validator(JSHint)
+
+No errors. It's says that there is unused and undefined variables but if i adjust them anyway, the API's don't work.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20014200.png "JS validator")
 
 ## Testing the website
 
