@@ -214,6 +214,8 @@ Here is the link for the project's live website [Khmer Explorer](https://mrccamp
 - Git committed "Moved the weather api."
 - Adjusted the weather api.
 - Git committed "Adjusted the weather api."
+- Checked HTML code for errors.
+- Git committed "Checked HTML code for errors."
 
 
 
@@ -261,18 +263,46 @@ Then re-did the google map api with more research. Using Youtube, Codementor, St
 
 The translator was a bigger issue. The key need to be hidden due to the update on the API. As back end development has not been taught in this stage. There was no way I could keep the translator. So tried a weather API instead.
 
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20003851.png "Weather API")
+
+With the change, the only warning is for deprication for the marker element.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20003851.png "Deprication warning")
 
 #### Lighthouse on Devtools
 
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20005150.png "Lighthouse 1")
+
+
+Lighthouse with no issues but third party cookies restrictions on my account, so went on incognito mode to see
+if it worked without my settings interfering with it.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20004543.png "Lighthouse 2")
+
+
 #### HTML validator
+
+Checked the HTML and found a few errors.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20012342.png "HTML validator")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20012355.png "HTML validator 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20012414.png "HTML validator 3")
+
+Fixed the errors. No errors or warnings showing.
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20013054.png
+
+
 
 #### CSS validator(Jigsaw)
 
 #### JS validator(JSHint)
 
-### Testing the website
+## Testing the website
 
-## Touring the website
+### Touring the website
 
 ![alt text](assets/readmeimages/Screenshot%202025-05-08%20114558.png "Opening website")
 
@@ -370,8 +400,6 @@ Each of the images, when clicked takes you to the corresponding website.
 
 ![alt text](assets/readmeimages/Screenshot%202025-05-08%20125152.png "Expedia website")
 
-### Khmer Translator
-
 #### Translation apps
 
 ![alt text](assets/readmeimages/Screenshot%202025-05-08%20125904.png "Translation apps")
@@ -381,6 +409,15 @@ Each of the images, when clicked takes you to the corresponding website.
 ![alt text](assets/readmeimages/Screenshot%202025-05-08%20125935.png "Simply Learn website")
 
 ![alt text](assets/readmeimages/Screenshot%202025-05-08%20125955.png "Italki website")
+
+### Cambodian Live Weather Forcast
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20005432.png "Weather forecast")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20011122.png "Weather forecast 2")
+
+![alt text](assets/readmeimages/Screenshot%202025-05-09%20011146.png "Weather forecast 3")
+
 
 #### Footer
 
@@ -410,7 +447,7 @@ The footer section is where the contact details, and social media links. Each so
 
 ![alt text](assets/readmeimages/Screenshot%202025-02-12%20224311.png "Telegram website")
 
-
+Everything was tested and worked as should.
 
 ## Future plans
 

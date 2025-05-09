@@ -103,7 +103,7 @@ const markers = [
 
  async function getWeather() {
       const province = document.getElementById('province').value;
-      const weatherDiv = document.getElementById('khmer-weather');
+      const weatherDiv = document.getElementById('khmer-weather-results');
       weatherDiv.innerHTML = "Loading...";
 
       try {
@@ -112,7 +112,7 @@ const markers = [
         const data = json.data;
 
         weatherDiv.innerHTML = `
-          <h3>Weather in ${data.name}</h3>
+          <h2>Weather in ${data.name}</h2>
           <p><strong>Condition:</strong> ${data.condition.text} <img src="https:${data.condition.icon}" alt="${data.condition.text}"/></p>
           <p><strong>Temperature:</strong> ${data.temp_c}°C (feels like ${data.feelslike_c}°C)</p>
           <p><strong>Humidity:</strong> ${data.humidity}%</p>
